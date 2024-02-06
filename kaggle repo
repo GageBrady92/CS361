@@ -1,0 +1,3 @@
+https://www.kaggle.com/datasets/gagebrady/brain-mri-tumor-data
+-
+This contains the annotated images, the jpg images, the CSV files for training and testing. It also has the py file to convert the CSV files to binary for TensorFlow to ingest.
