@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <script src="random.js"></script>
+  <body>
+
+<h1>Brain Tumor Detection</h1>
+  <p>I will use a Machine learning model to help identify brain tumors based on MRI photos</p>
+  
+    <img id='rand_image' width="250" height="350"/>
+      <div>
+    <button id="jsstyle" onclick="get_random_image();">Generate photo</button>
+    </div>
+
+    <div>
+    <form action="eval.html">
+      <button type="submit" class="button">Run Model</button>
+    </form>
+  </div>
+    <div>
+      <button onClick="window.location.reload();">Reset</button>
+    </div>
+  </div>
+  </body>
+</html>
