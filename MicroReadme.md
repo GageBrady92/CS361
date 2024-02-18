@@ -37,7 +37,7 @@ Testing get_recent_observations function...
   >> Recent Observation: Common Goldeneye Bucephala clangula Hog Hole (Allan H. Treman State Marine Park) 2024-02-18 10:39 2
   >> Recent Observation: Hooded Merganser Lophodytes cucullatus Hog Hole (Allan H. Treman State Marine Park) 2024-02-18 10:39 20
 
-
+## UML Diagram
 
 ![image](https://github.com/GageBrady92/CS361/assets/114173520/c3b12148-3ceb-4f5c-a11d-084b4baa02ce)
 
