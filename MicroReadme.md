@@ -19,3 +19,20 @@ When the random bird function is called, the program will first get a random bir
 
 For the bird sightings, the microservice will take lattitude and longitude from the user and use this to find the relevant information. Currently the microservice will show data for the past 2 days, and 5km from the specified latitude and longitude. These are passed by variable to the microservice, so they can be updated as needed. These reponses are also currently stored in JSON format that a user can utilize.
 
+## Example Output
+Testing get_random_bird_name function...
+  >> Random Bird Name: Gray-streaked Honeyeater
+
+Testing get_recent_observations function...
+  >> Recent Observation: Blue Jay Cyanocitta cristata NY - Ithaca, 212 Tareyton 2024-02-18 11:28 2
+  >> Recent Observation: American Crow Corvus brachyrhynchos NY - Ithaca, 212 Tareyton 2024-02-18 11:28 1
+  >> Recent Observation: Black-capped Chickadee Poecile atricapillus NY - Ithaca, 212 Tareyton 2024-02-18 11:28 3
+  >> Recent Observation: American Goldfinch Spinus tristis NY - Ithaca, 212 Tareyton 2024-02-18 11:28 1
+  >> Recent Observation: Downy Woodpecker Dryobates pubescens 159 W Remington Rd, Cayuga Heights US-NY 42.46901, -76.49852 2024-02-18 11:00 1
+  >> Recent Observation: Snow Goose Anser caerulescens Hog Hole (Allan H. Treman State Marine Park) 2024-02-18 10:39 1
+  >> Recent Observation: Canada Goose Branta canadensis Hog Hole (Allan H. Treman State Marine Park) 2024-02-18 10:39 165
+  >> Recent Observation: Mallard Anas platyrhynchos Hog Hole (Allan H. Treman State Marine Park) 2024-02-18 10:39 150
+  >> Recent Observation: Redhead Aythya americana Hog Hole (Allan H. Treman State Marine Park) 2024-02-18 10:39 100
+  >> Recent Observation: Greater Scaup Aythya marila Hog Hole (Allan H. Treman State Marine Park) 2024-02-18 10:39 49
+  >> Recent Observation: Common Goldeneye Bucephala clangula Hog Hole (Allan H. Treman State Marine Park) 2024-02-18 10:39 2
+  >> Recent Observation: Hooded Merganser Lophodytes cucullatus Hog Hole (Allan H. Treman State Marine Park) 2024-02-18 10:39 20
